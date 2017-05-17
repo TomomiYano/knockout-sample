@@ -4,11 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "add-pack": "npm install -S -E",
+    "add-dev-pack": "npm install -D -E"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "jquery": "3.2.1",
+    "knockout": "3.4.2"
+  },
   "devDependencies": {
-    "grunt": "1.0.1"
+    "babel-preset-es2015": "6.24.1",
+    "grunt": "1.0.1",
+    "grunt-babel": "6.0.0",
+    "grunt-cli": "1.2.0",
+    "grunt-webpack": "3.0.0",
+    "webpack": "2.5.1",
+    "webpack-dev-server": "2.4.5"
   }
 }

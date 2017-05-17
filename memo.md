@@ -20,3 +20,7 @@ $npm install -D -E hoge
 - -S [--save]：dependencies
 - -E [--save-exact]：保存されたモジュールの依存関係にあるモジュールのバージョンを固定してます。
 
+
+## Memo
+### grunt-cli の役割
+- grunt-cliはgrunt本体ではなく、「そのディレクトリにインストールされたGruntを実行する」という処理を行うためのもの
